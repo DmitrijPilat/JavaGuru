@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Lab7QuadroEquation {
 
-
-
     public static void main(String[] args) {
         System.out.println("This program will find discriminant of quadratic equation");
         System.out.println("of type A*X^2 + B*X + C =0");
@@ -20,8 +18,7 @@ public class Lab7QuadroEquation {
         double num3 = c.nextDouble();
         System.out.println("You typed "+num1+"*X^2 + "+ num2 +"*X + "+num3+" =0");
 
-        double D;
-        D = (num2*num2)-( 4 *num1 * num3);
+        double D = (num2*num2)-( 4 *num1 * num3);
 
         System.out.println("Descriminant D = (b * b) - (4 * a * c) = " + D);
         System.out.println("Program finished, bye!");

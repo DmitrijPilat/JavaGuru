@@ -21,11 +21,11 @@ import java.util.Scanner;
             D = (num2 * num2) - (4 * num1 * num3);
             System.out.println("Descriminant D = (b * b) - (4 * a * c) = " + D);
 
-            if (D < 0)
+            if (D < 0) {
                 System.out.println("корней на множестве действительных чисел нет.");
-            else if (D == 0) {
+            } else {
+                if (D == 0) {
                 double x1;
-
                 x1 = (-num2) / (2 * num1);
                 System.out.println("корень х1 =" + x1);
             } else {
@@ -34,7 +34,7 @@ import java.util.Scanner;
                 x2 = (-num2 - Math.sqrt(D)) / (2 * num1);
                 System.out.println("x1 = " + x1 + " x2 = " + x2);
             }
-
+            }
             System.out.println("Program finished, bye!");
         }
     }

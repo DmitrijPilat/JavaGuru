@@ -10,7 +10,6 @@ public class Lab6Square {
         double output = enter.nextDouble();
         //main calculation happens here. Math works only with double types!
         System.out.println("Exponentiation of 2nd form =" + Math.pow(output,2));
-
         System.out.println("Program finished, bye!");
     }
 }
