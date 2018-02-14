@@ -6,9 +6,9 @@ public class Lab2FindMaxOf2Num {
     public static void main(String[] args) {
         System.out.println("введите 2 целых числа и выведите на консоль наибольшее из них");
         Scanner sc = new Scanner(System.in);
-        System.out.println("введите число А");
+        System.out.print("введите число А: ");
         int number = sc.nextInt();
-        System.out.println("введите число B");
+        System.out.print("введите число B: ");
         int number2=sc.nextInt();
 
         if(number<number2) {
