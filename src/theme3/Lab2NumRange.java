@@ -13,17 +13,17 @@ public class Lab2NumRange {
         int rangeTop;
         int rangeMin;
 
-        if (a < b){
-            rangeMin = a;
-            rangeTop = b;
+        if (a > b){
+            rangeMin = b;
+            rangeTop = a;
             while (rangeMin <= rangeTop) {
                 System.out.println(rangeMin);
                 rangeMin++;
             }
 
-            if(a>b){
-                    rangeMin = b;
-                    rangeTop = a;
+            if(a < b){
+                    rangeMin = a;
+                    rangeTop = b;
                     while (rangeMin <= rangeTop) {
                         System.out.println(rangeMin);
                         rangeMin++;
