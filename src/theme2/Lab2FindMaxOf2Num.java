@@ -13,11 +13,9 @@ public class Lab2FindMaxOf2Num {
 
         if(number<number2) {
             System.out.println(number2 + " большее");
-        } else
-        if(number==number2) {
+        } else if(number==number2) {
             System.out.println("A == B");
-        } else
-        if(number>number2) {
+        } else if(number>number2) {
             System.out.println(number + " большее");
         }
         System.out.println("====================================");

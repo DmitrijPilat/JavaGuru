@@ -18,7 +18,7 @@ public class Lab3MaxOf3 {
 
         if(a>b && a>c) {
             System.out.println(a + " - из всех введёных значений это самое большое");
-        }else if (b>c && b>a) {
+        } else if (b>c && b>a) {
             System.out.println(b + " - из всех введёных значений это самое большое");
         } else if (c>a && c>b) {
             System.out.println(c + " - из всех введёных значений это самое большое");
