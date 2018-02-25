@@ -1,8 +1,8 @@
-package theme3;
+package theme4;
 
 import java.util.Scanner;
 
-public class Lab2NumRange {
+public class Lab2WhileNumRange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("введите целое число А: ");
@@ -13,23 +13,21 @@ public class Lab2NumRange {
         int rangeTop;
         int rangeMin;
 
-        if (a > b){
+        if (a < b) {
+            rangeMin = a;
+            rangeTop = b;
+            while (rangeMin <= rangeTop) {
+                System.out.println(rangeMin);
+                rangeMin++;
+            }
+        }
+        if (a > b) {
             rangeMin = b;
             rangeTop = a;
             while (rangeMin <= rangeTop) {
                 System.out.println(rangeMin);
                 rangeMin++;
             }
-
-            if(a < b){
-                    rangeMin = a;
-                    rangeTop = b;
-                    while (rangeMin <= rangeTop) {
-                        System.out.println(rangeMin);
-                        rangeMin++;
-                    }
-                }
-            }
         }
     }
-
+}

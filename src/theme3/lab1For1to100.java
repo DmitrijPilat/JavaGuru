@@ -1,13 +1,11 @@
 package theme3;
 
-public class lab1While1to100 {
+public class lab1For1to100 {
     public static void main(String[] args) {
-        int i = 0;
 
-        while (i < 101) {
+       for (int i=0; i < 101; i++) {
             System.out.print(" "+i);
-            i++;
-        }
+            }
     }
 }
 
