@@ -24,22 +24,18 @@ public class Lab3GuessNum {
 
             if (x < hidden) {
                 System.out.println("> ");
-                //int z = guess.nextInt();
-                //break;
+
             } else if ( x > hidden) {
                 System.out.println("<");
-                //int z = guess.nextInt();
-               // break;
+
             } else if (x == hidden) {
                 System.out.println(" You guessed the number");
             }
         }
-        } while (Stop);
+            } while (Stop);
     }
 
     public static void main(String[] args) {
-
         Guess();
-
     }
 }
